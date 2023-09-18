@@ -1,0 +1,36 @@
+# Arquivos e pastas gerados pelo Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+
+# Arquivos de saída de compilação
+*.dll
+*.exe
+*.pdb
+
+# Pastas do NuGet Package Manager
+packages/
+
+# Arquivos de projeto específicos do Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# Logs e arquivos temporários
+*.log
+*.swp
+*.swo
+*.bak
+Thumbs.db
+
+# Dependências do .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de publicação
+Publish/
+
+# Arquivos de configuração de ambiente
+*.env
