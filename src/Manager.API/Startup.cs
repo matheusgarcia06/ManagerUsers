@@ -1,4 +1,5 @@
 using AutoMapper;
+using EscNet.IoC.Cryptography;
 using Manager.API.Token;
 using Manager.API.ViewModels;
 using Manager.Domain.Entities;
@@ -106,6 +107,8 @@ namespace Manager.API
                 }
                 });
             });
+
+            services.AddRijndaelCryptography(Configuration["Cryptography"]);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
